@@ -1,0 +1,544 @@
+h1, h2 {
+    font-family: 'Kaushan Script', cursive;
+}
+p, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: white; 
+}
+nav {
+    background-image: linear-gradient(#373337 53%, transparent);
+}
+#bars, #text-history-mobile, #open_menu_mobile {
+    display: none;
+}
+
+#logo-home {
+    width:55%;
+}
+#navbar-brand{
+    width: 300px;
+}
+#text-history {
+    color: white; 
+    margin-right: 30%;
+}
+#hr-title{
+    border-top: 3px solid #e3a630;
+    margin-right: 30%;
+}
+#blog #hr-title{
+    margin-right: 65%;
+}
+#history-section .col-12 {
+    padding-right: 50%;
+}
+#hot-dog-1 p{
+    color: white;
+    margin-right: 20%;
+}
+
+#text-hot-dog {
+    color: white;
+    margin: 5% 35% 5% 18%;
+}
+.card-body {
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,0);
+}
+#post {
+    background-image: linear-gradient(#373337 50%, white 50%);
+}
+#post-title {
+    font-size: 4rem;
+    color: #373337;
+    margin-top: 15%;
+}
+#post-text p{
+    font-size: 1.2rem;
+    color: #373337;
+}
+
+.card-img {
+    padding: 5%;
+}
+.card-title {
+    font-size: 2rem;
+    color: #373337;
+}
+.card-text {
+    font-size: 1.5rem;
+    color: #373337;
+}
+
+#card-row h3 {
+    color: #e3a630;
+    font-size: 2.5rem;
+    margin-bottom: 4%;
+}
+.navbar-expand-lg .navbar-nav .nav-link, #nav-mobile .nav-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    color: #e3a630;
+    padding-right: 1.5rem;
+    padding-left: 3rem;
+}
+
+body {
+    background-color: #373337;
+}
+
+.sidebar{
+    height: 100%;
+    width: 17%;
+    position: fixed;
+    z-index: -99;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    overflow-x: hidden;
+    padding-top: 38%;
+
+}
+
+#icon {
+    font-size: 2rem;
+    color: #e3a630;
+    margin: 8px;
+}
+
+#icon-pack p{
+    color: #e3a630;
+    margin-left: 2.5%;
+}
+
+.fa-chevron-down{
+    font-size: 5rem;
+    color: #e3a630;
+}
+
+#history-section { background-image: url("https://i.imgur.com/Uvjw71Q.jpg"); background-size: cover;}
+
+#history-section, #hot-dog-1, #blog, #contato,  #history-page, #franchise-page, #post {
+    padding-top: 15%;
+    padding-left: 5%;
+}
+
+#location-section{
+    padding-top: 20%;
+}
+
+#history-title {
+    font-size: 6rem;
+    color: #e3a630;
+}
+#hot-dog-artesanal-img {
+    width: 100%;
+}
+#hot-dog-title {
+    font-size: 6rem;
+    color: #373337;
+    background-color: #e3a630;
+}
+#hot-dog-1 #read-more{
+    display: none;
+}
+#description-hot-dog{
+    padding-top: 26%;
+}
+.card-img {
+    padding: 0;
+    width: 100%;
+    height: 500px;
+}
+.card-img-overlay{
+    margin: 50% 20% 7% 0; 
+}
+.card-text {
+    margin-right: 33%;
+}
+#logo-section, #location-section p{padding-top: 10%;}
+
+#location-section p {
+    color: white;
+    margin: 0 25% 15%;
+}
+
+#franquia img, #eventos img {
+    width: 100%;
+    height: -webkit-fill-available;
+}
+#description-franquia {
+    padding-top: 15%;
+}
+#franquia p {
+    margin-right: 50%;
+    margin-left: 1%
+}
+#eventos p, #eventos a, #eventos #hr-title {
+    margin-left: 33%;
+}
+form label {
+    color: white;
+}
+#hot-dog-3 #hot-dog-title, #hot-dog-5 #hot-dog-title{
+    margin-right: -135%;
+    padding-left: 15%;
+    padding-bottom: 4%;
+}
+#hot-dog-2 #hot-dog-title, #hot-dog-4 #hot-dog-title{
+    padding-left: 15%;
+    padding-bottom: 4%;
+}
+#hot-dog-2 img, #hot-dog-4 img {
+    width: 99%;
+    top: -250px;
+    position: absolute;
+}
+#hot-dog-3 img {
+    width: 102.5%;
+}
+#hot-dog-5 img {
+    width: 85.5%;
+}
+#hot-dog-2 h2, #hot-dog-4 h3{
+    bottom: -5px;
+    position: relative;
+    margin-left: -106px;
+    margin-right: -30px;
+}
+#text-blog {
+    margin: 5% 50% 10% 0;
+}
+.fa-chevron-right{
+    transform: rotate(0deg);
+    transition: transform 250ms linear;
+}
+  
+.fa-chevron-right.open{
+    transform: rotate(90deg);
+    transition: transform 250ms linear;
+}
+#history-page img {
+    width: 95%;
+}
+#franquia img, #eventos img {
+    width: 98.5%;
+}
+#franchise-page {
+    padding-left: 10%;
+}
+#icon-collapse {
+    font-size: 2rem;
+}
+
+#blog-imagem {
+    width: 500px;
+    height: 300px;
+}
+#section-blog-page .card-img-overlay {
+    position: initial;
+}
+#post_id {
+    margin-left: 80%;
+}
+#post-img {
+    width: 1000px;
+}
+#post-detail {
+    margin-left: 3%;
+}
+#space {
+    margin-bottom: 20%;
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+.card {
+    background-color:  #e3a630;
+}
+#blog-page .container-fluid {
+    width: 65%
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+
+    .clip-mask-cellphone {
+        background: #4A4B54;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        z-index: 99;
+    }
+    @keyframes slide-in-top {
+        0% {
+            transform: translateY(-1000px);
+            opacity: 0
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1
+        }
+    }
+    @keyframes slide-out-top {
+        0% {
+            transform: translateY(0);
+            opacity: 1
+        }
+        100% {
+            transform: translateY(-1000px);
+            opacity: 0
+        }
+    }
+    .slide-in-top {
+        animation: slide-in-top .5s cubic-bezier(.25,.46,.45,.94) both;
+    }
+    .slide-out-top {
+        animation: slide-out-top .5s cubic-bezier(.55,.085,.68,.53) both;
+    }
+    .sidebar, .navbar-brand, .onepage-pagination, #text-history, .last_post, #read_post, .fas.fa-chevron-down, #contato p{
+        display: none;
+    }
+    nav {
+        background-image: none;
+    }
+    #bars{
+        display: block;
+        font-size: 3rem;
+        color: #e3a630;
+    }
+    #logo-home {
+        width: 80%;
+        margin-top: 22%;
+    }
+    #history-section {
+        background-position-x: 360px;
+        padding: 56% 0% 0% 0%;
+    }
+    #history-title{
+        font-size: 3rem;
+    }
+    #history-section .col-12 {
+        background-image: linear-gradient(transparent -4%, #373337);
+        padding: 0% 0% 10% 5%;
+    }
+    #text-history-mobile {
+        display: block;
+        color: white;
+    }
+    .btn-group-lg>.btn, .btn-lg, #blog a.btn {
+        padding: .375rem .75rem;;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+    }
+    #read-more, #hot-dog-1 #read-more, #franquia a, #eventos a{
+        display: grid;
+        margin-right: 4%;
+    }
+    #hot-dog-1 {
+        padding-top: 30%;
+    }
+    #hot-dog-artesanal-img {
+        margin: -740px 0 0 145px;
+        width: 68%;
+    }
+    #hot-dog-1 .col-6, #blog .col-6, #franquia .col-6, #eventos .col-6, #contato .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #hot-dog-1 p, #blog #hr-title, #franquia p{
+        margin-right: 0%;
+    }
+    #text-blog{
+        margin: 5% 5% 5% 0;
+    }
+    .card-img, #franquia img, #eventos img{
+        height: auto;
+    }
+    .card-title{
+        font-size: 1.25rem;
+    }
+    .text-truncate span{
+        font-size: 12px !important;
+    }
+    .text-truncate, #date_post{
+        margin-top: -26px;
+    }
+    .card-img-overlay {
+        margin: 18% 30% 9% 0;
+    }
+    .text-muted{
+        font-size: 50%;
+    }
+    #blog_button{
+        margin-bottom: 3%;
+    }
+    .blog_title{
+        text-align: center;
+    }
+    #franquia img, #eventos img{
+        width: 52%;
+    }
+    #description-franquia {
+        padding: 0 0 0 8%;
+    }
+    #img-franquia{
+        text-align: end;
+    }
+    #eventos img{
+        margin: -734px 0 0 175px;
+    }
+    #eventos p, #eventos a, #eventos #hr-title {
+        margin-left: 0px;
+    }
+    #eventos #description-franquia {
+        padding-top: 65%;
+        text-align: left!important;
+    }
+    #nav-mobile .nav-link{
+    padding-right: 0;
+    padding-left: 0;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1200px){}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1350px) and (max-width: 1550px) {
+    #navbar-brand{
+        width: 250px;
+    }
+    #logo-home {
+        width: 40%;
+    }
+    .sidebar{
+        padding-top: 27%;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 1.18rem;
+    }
+    #icon, #icon-collapse {
+        font-size: 1.5rem;
+    }
+    #icon-pack p {
+        margin-left: 3.5%;
+    }
+    .fa-chevron-down, #contato h2, #franchise-page h2{
+        font-size: 3rem;
+    }
+    #history-section, #hot-dog-1, #blog, #contato, #history-page, #franchise-page{
+        padding-top: 12%;
+        padding-left: 20%;
+    }
+    #history-page, #franchise-page, #blog-page{
+        padding-top: 15%;
+    }
+    #hot-dog-2, #hot-dog-3, #hot-dog-4, #hot-dog-5{
+        padding-left: 20%;
+    }
+    #history-title, #hot-dog-title {
+        font-size: 4rem;
+    }
+    #hr-title, #contato p {
+        margin-right: 30%;
+    }
+    #text-history {
+        margin-right: 10%;
+    }
+    #hot-dog-artesanal-img {
+        width: 80%;
+    }
+    #description-hot-dog {
+        padding-top: 23%;
+    }
+    #hot-dog-2 img, #hot-dog-4 img {
+        top: -230px;
+        width: 68%;
+    }
+    #hot-dog-4 img {
+        top: -197px;
+    }
+    #hot-dog-2 #hot-dog-title, #hot-dog-4 #hot-dog-title {
+        padding-left: 0%;
+        padding-bottom: 0%;
+    }
+    #hot-dog-3 #hot-dog-title, #hot-dog-5 #hot-dog-title{
+        margin-right: -99%;
+        padding-left: 10%;
+        padding-bottom: 2%;
+    }
+    #hot-dog-2 h2, #hot-dog-4 h3 {
+        bottom: -20px;
+    }
+    #text-hot-dog {
+        margin: 5% 35% 5% 4%;
+    }
+    #hot-dog-3 img {
+        width: 74.5%;
+    }
+    #hot-dog-5 img {
+        width: 62.5%;
+    }
+    .card-img {
+        width: 85%;
+        height: auto;
+    }
+    .card-img-overlay {
+        margin: 24% 20% 3% 0%;
+    }
+    .card {
+        border: 0px solid;
+    }
+    .card-text {
+        font-size: 1.2rem;
+        margin-right: 30%;
+    }
+    #blog .btn-outline-warning {
+        margin-top: -40px;
+    }
+    #eventos {
+        padding-left: 10%;
+    }
+    #eventos #history-title{
+        margin-left: -50px;
+    }
+    #eventos p{
+        margin-left: 31%;
+    }
+    #id_mensagem {
+        height: 90px;
+    }
+    form {
+        width: 75%;
+    }
+    #text-history-page h5 {
+        margin-right: 5%;
+        margin-bottom: 2%;
+    }
+    #history-page img, #franchise-page img {
+        width: 70%;
+    }
+    #card-row h3 {
+        font-size: 2rem;
+    }
+    .card-title {
+        font-size: 3rem ;
+    }
+    #post-img {
+        width: 48%;
+    }
+    #post-detail {
+        margin-left: 15%;
+    }
+    #blog-page .container-fluid {
+        width: 69%;
+        margin-left: 20%;
+    }
+}

@@ -1,0 +1,234 @@
+{% extends 'site_cao_bravo/index.html' %}
+{% block title %}Bem vindo ao Cão Bravo{% endblock %}
+{% block body_block %}
+{% load static %}
+    <section id="logo-section">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <img src="https://i.imgur.com/5yGq24U.png?1" id="logo-home">
+                </div>
+            </div>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+    <section id="history-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 id="history-title">História</h1>
+                    <hr id="hr-title">
+                    <div class="text-left">
+                        <p id="text-history">
+                            Quando chegou ao Brasil, nosso nono trouxe consigo uma receita especial da Sicília. Verdadeiro segredo de família. O aroma das salsichas que ele costumava preparar, curadas no fogão a lenha, se espalhava pela vizinhança, perfumando o ar e despertando apetites. A criançada mais aventureira chegava a pular o muro da casa na tentativa de acalmar os estômagos.<br>
+                            O nono, contrariado, resolveu então ter um cão de guarda no seu quintal, para proteger suas preciosas criações. Mas sabemos que as crianças podem ser incansáveis, e, no final das contas, elas conseguiram fazer amizade com o animal, que de bravo não tinha nada. 
+                        </p>
+                        <p id="text-history-mobile">
+                            Quando chegou ao Brasil, nosso nono trouxe consigo uma receita especial da Sicília. Verdadeiro segredo de família. O aroma das salsichas que ele costumava preparar, curadas no fogão a lenha, se espalhava pela vizinhança, perfumando o ar e despertando apetites.
+                        </p>
+                    </div>
+                    <div id="read-more">
+                        <a class="btn btn-outline-warning btn-lg" href="{% url 'site_cao_bravo:history' %}">Ler mais ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="hot-dog-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2 id="history-title">Hot-dog<br>artesanal</h2>
+                    <hr id="hr-title">
+                    <div class="text-left">
+                        <p>
+                            O cardápio da Cão Bravo não é extenso, mas garantimos que é caprichado,
+                            pois um hot dog memorável exige bons acompanhamentos e um pão saboroso e macio. Elaboramos nosso próprio pão, disponível, inclusive, em uma versão sem glúten. A ideia é que ninguém fique de fora
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 justify-content-center align-self-center">
+                    <img src="https://i.imgur.com/ygxxtp5.png" alt="" id="hot-dog-artesanal-img">
+                    <div id="read-more">
+                        <a class="btn btn-outline-warning btn-lg" href="{% url 'site_cao_bravo:history' %}">Ler mais ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="hot-dog-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 justify-content-center align-self-center">
+                    <h2 id="hot-dog-title" class="text-center">.</h2>
+                    <img src="https://i.imgur.com/Gl5f8fG.jpg?1" alt="">
+                </div>
+                <div class="col-6" id="description-hot-dog">
+                    <h1 id="hot-dog-title">Cordeiro</h1>
+                    <div class="text-left">
+                        <p id="text-hot-dog">
+                            O cardápio da Cão Bravo não é extenso, mas garantimos que é caprichado,
+                            pois um hot dog memorável exige bons acompanhamentos e um pão saboroso e macio. Elaboramos nosso próprio pão, disponível, inclusive, em uma versão sem glúten. A ideia é que ninguém fique de fora
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="hot-dog-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-6" id="description-hot-dog">
+                    <h2 id="hot-dog-title">Frango</h2>
+                    <div class="text-left">
+                        <p id="text-hot-dog">
+                            O cardápio da Cão Bravo não é extenso, mas garantimos que é caprichado,
+                            pois um hot dog memorável exige bons acompanhamentos e um pão saboroso e macio. Elaboramos nosso próprio pão, disponível, inclusive, em uma versão sem glúten. A ideia é que ninguém fique de fora
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 justify-content-center align-self-center">
+                    <img src="https://i.imgur.com/YdCjqMM.jpg?4" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="hot-dog-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 justify-content-center align-self-center">
+                    <h3 id="hot-dog-title" class="text-center">.</h2>
+                    <img src="https://i.imgur.com/LxYR1Na.jpg?3" alt="">
+                </div>
+                <div class="col-6" id="description-hot-dog">
+                    <h2 id="hot-dog-title">Bovina</h2>
+                    <div class="text-left">
+                        <p id="text-hot-dog">
+                            O cardápio da Cão Bravo não é extenso, mas garantimos que é caprichado,
+                            pois um hot dog memorável exige bons acompanhamentos e um pão saboroso e macio. Elaboramos nosso próprio pão, disponível, inclusive, em uma versão sem glúten. A ideia é que ninguém fique de fora
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="hot-dog-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6" id="description-hot-dog">
+                    <h2 id="hot-dog-title">Vegana</h2>
+                    <div class="text-left">
+                        <p id="text-hot-dog">
+                            O cardápio da Cão Bravo não é extenso, mas garantimos que é caprichado,
+                            pois um hot dog memorável exige bons acompanhamentos e um pão saboroso e macio. Elaboramos nosso próprio pão, disponível, inclusive, em uma versão sem glúten. A ideia é que ninguém fique de fora
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 justify-content-center align-self-center">
+                    <img src="https://i.imgur.com/PPRqty9.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog" style="padding-top: 13%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2 id="history-title" class="blog_title">Blog</h2>
+                    <hr id="hr-title">
+                    <div class="text-left">
+                        <p id="text-blog">
+                            O cardápio da Cão Bravo não é extenso, mas garantimos que é caprichado,
+                            pois um hot dog memorável exige bons acompanhamentos e um pão saboroso e macio.
+                        </p>
+                    </div>
+                    <a class="btn btn-outline-warning btn-lg" href="{% url 'site_cao_bravo:blog' %}" id="blog_button">Ir ao Blog ></a>
+                </div>
+                {% for post in list_posts %}
+                    {% if forloop.first %}
+                    <div class="col-6">
+                        <h2 id="history-title" class="last_post" style="font-size: 2rem;">Último post</h2>
+                        <div class="card bg-transparent">
+                            <img class="card-img" src="{{ post.imagem }}" alt="Card image">
+                            <div class="card-img-overlay" style="background-color:#e3a630">
+                                <h6 class="card-title">{{post.titulo}}</h6>
+                                <div class="text-truncate">
+                                    <p class="card-text">{{post.texto|safe|truncatewords:"90"}}</p>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <p class="card-text" id="date_post"><small class="text-muted">{{post.data_publicacao|date:"d/m/Y  H:i"}}</small></p>
+                                        <a href="blog/{{post.id}}" class="btn btn-outline-dark btn-lg" id="read_post">Ler post</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <section id="franquia">
+        <div class="row">
+            <div class="col-6 justify-content-center align-self-center" id="img-franquia">
+                <img src="https://i.imgur.com/itGbwCV.jpg" alt="">
+            </div>
+            <div class="col-6" id="description-franquia">
+                <h2 id="history-title">Franquias</h2>
+                <hr id="hr-title" style="margin-right: 50%">
+                <div class="text-left">
+                    <p id="text-hot-dog">
+                        O cardápio da Cão Bravo não é extenso, mas garantimos que é caprichado,
+                        pois um hot dog memorável exige bons acompanhamentos e um pão saboroso e macio.
+                    </p>
+                </div>
+                <a class="btn btn-outline-warning btn-lg" href="{% url 'site_cao_bravo:franchise' %}">Saiba mais ></a>
+            </div>
+        </div>
+    </section>
+    <section id="eventos">
+        <div class="row">
+            <div class="col-6 text-center" id="description-franquia">
+                <h2 id="history-title">Eventos</h2>
+                <hr id="hr-title">
+                <div class="text-left">
+                    <p>
+                        O cardápio da Cão Bravo não é extenso, mas garantimos que é caprichado,
+                        pois um hot dog memorável exige bons acompanhamentos e um pão saboroso e macio.
+                    </p>
+                    <a class="btn btn-outline-warning btn-lg" href="{% url 'site_cao_bravo:events' %}">Saiba mais ></a>
+                </div>
+            </div>
+            <div class="col-6 justify-content-center align-self-center">
+                <img src="https://i.imgur.com/I1o4LNN.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2 id="history-title">Entre em contato</h2>
+                    <hr id="hr-title">
+                    <div class="text-left">
+                        <p>
+                            O cardápio da Cão Bravo não é extenso, mas garantimos que é caprichado,
+                            pois um hot dog memorável exige bons acompanhamentos e um pão saboroso e macio.
+                        </p>
+                    </div>
+                </div>
+                {% load crispy_forms_tags %}
+                <div class="col-6 justify-content-center align-self-center">
+                    <form  method="post">
+                        {% csrf_token %}
+                        {{  form|crispy }}
+                        <div class="text-right">
+                            <button  type="submit"  class="btn btn-outline-warning btn-lg">Enviar</button>
+                        </div>
+                    </form>      
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

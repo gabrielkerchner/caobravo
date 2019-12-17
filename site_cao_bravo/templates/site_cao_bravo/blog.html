@@ -1,0 +1,39 @@
+{% extends "site_cao_bravo/index.html" %}
+{% block body_block %}
+<section id="blog-page">
+    <h1 id="history-title" class="text-center" style="margin-bottom: 10%;">Blog</h1>
+{% if list_posts %}
+{% for post in list_posts %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 mt-3">
+            <div class="card">
+                <div class="card-horizontal">
+                    <div class="img-square-wrapper">
+                        <img id="blog-imagem" class="" src="../{{post.imagem}}" alt="Card image cap">
+                    </div>
+                    <div class="card-body" style="margin: 4% 4% 0% 4%;">
+                        <h3 class="card-title">{{post.titulo}}</h3>
+                        <p class="card-text"> {{post.texto|safe|truncatewords:10 }}</p>
+                        <div class="row">
+                            <div class="col-6">
+                                <small style="color: black; font-size: 1rem;"><p>{{post.data_publicacao|date:"d/m/Y  H:i"}}</p></small>
+                            </div>
+                            <div class="col-6">
+                                <a href="{{post.id}}" data-id="{{post.id}}" id="postid"><button class="btn btn-outline-dark">Ler mais ></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% else %}
+<div class="container text-center">
+    <h2 style="color: #E3A631;">Nenhum Post Encontrado!</h2>
+</div>
+{% endif %}
+</section>
+{% endblock %}

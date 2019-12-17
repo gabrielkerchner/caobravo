@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %}</title>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ed8ca12d37.js" crossorigin="anonymous"></script>
+    <script>window.CKEDITOR_BASEPATH = '/static/ckeditor/ckeditor/'</script>
+    <link rel="stylesheet" href="{% static 'css/onepage-scroll.css' %}">
+    <script src="{% static 'js/jquery.onepage-scroll2.js' %}"></script>
+    <script src="{% static 'js/master.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/master1.css' %}">
+</head>
+<body>
+    <div id="open_menu_mobile" class="clip-mask-cellphone slide-in-bottom">
+        {% include "site_cao_bravo/nav_mobile.html" %}
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="padding: 4% 4% 5% 4%">
+        <a id="open-menu"><i class="fas fa-bars" id="bars" aria-hidden="true"></i></a>
+        <a class="navbar-brand" href="#">
+            <img src="https://i.imgur.com/C0ZYkNR.png" id="navbar-brand" alt="">
+        </a>
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'site_cao_bravo:home' %}" data-page-index="1">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'site_cao_bravo:home' %}#2" data-page-index="2">História</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'site_cao_bravo:home' %}#3" data-page-index="3">Hot-dogs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'site_cao_bravo:home' %}#8" data-page-index="8">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'site_cao_bravo:home' %}#9" data-page-index="9">Franquia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'site_cao_bravo:home' %}#10" data-page-index="10">Eventos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'site_cao_bravo:home' %}#11" data-page-index="11">Contato</a>
+            </li>
+        </div>
+        <div class="sidebar" style="margin-left: 4.5%;">
+            <div class="container text-left">
+                <div class="row" id="icon-pack">
+                    <div class="col-md-12">
+                        <a href="https://www.facebook.com/Ag%C3%AAncia-Evoi-428866267149811/"><i class="fab fa-facebook-square" id="icon"></i></a>
+                        <a href="https://www.instagram.com/evoipublicidade/"><i class="fab fa-instagram" id="icon"></i></a>
+                        <a href="https://www.youtube.com/channel/UCbOiDuT-tfs-rsAl5XdqxTg?view_as=subscriber"><i class="fas fa-caret-square-right" id="icon"></i></a>
+                        <br><p><strong>Shopping <br> Cidade São Paulo</strong></p>
+                        <p>Av. Paulista, 1230 <br> Bela Vista <br> São Paulo - SP</p>
+                        <a href="{% url 'site_cao_bravo:location' %}"><button class="btn btn-outline-warning">Veja onde estamos ></button></a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+      </nav>
+      
+      <div class="main">
+        {% block body_block %}
+        {% endblock %}
+      </div>
+</body>
+</html>
